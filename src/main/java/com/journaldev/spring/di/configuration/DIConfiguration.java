@@ -10,7 +10,7 @@ import org.springframework.context.annotation.Configuration;
  * Created by NICOLA on 27/06/2016.
  */
 @Configuration
-@ComponentScan
+@ComponentScan( value = "com.journaldev.spring.di.consumer" )
 public class DIConfiguration {
 
     @Bean

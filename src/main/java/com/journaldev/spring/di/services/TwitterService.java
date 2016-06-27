@@ -6,6 +6,6 @@ package com.journaldev.spring.di.services;
 public class TwitterService implements MessageService {
     public boolean sendMessage(String msg, String rec) {
         System.out.println("Twitter message Sent to " +  rec + "The message is " + msg );
-        return false;
+        return true;
     }
 }
