@@ -2,7 +2,6 @@ package com.journaldev.spring.di.test;
 
 import com.journaldev.spring.di.configuration.DIConfiguration;
 import com.journaldev.spring.di.consumer.MyApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 /**
@@ -17,6 +16,7 @@ public class ClientApplication {
         MyApplication app = context.getBean( MyApplication.class );
         app.processMessage( "Ciao questo è un messaggio di prova", "bombonati.nicola@gmail.com" );
         context.close();
+
     }
 
 }
