@@ -25,9 +25,9 @@ public class MyApplication {
         this.service=svc;
     }
 
-    public boolean processMessage( String msg, String rec )
+    public boolean processMessage( String msg, String mailaddress )
     {
-        return this.service.sendMessage(msg, rec);
+        return this.service.sendMessage(msg, mailaddress);
     }
 
 }
