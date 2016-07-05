@@ -27,7 +27,7 @@ public class EmailService implements MessageService {
     public void setMailSender(MailSender mailSender) {
         this.mailSender = mailSender;
     }
-    public void setTemplateMessage(SimpleMailMessage templateMessage) {this.templateMessage = templateMessage;}
+    public void setTemplateMessage(SimpleMailMessage templateMessage) { this.templateMessage = templateMessage; }
 
     public boolean sendMessage(String msg, String mailaddress) {
 
