@@ -1,6 +1,7 @@
 package com.journaldev.spring.di.services;
 
 
+import org.slf4j.LoggerFactory;
 import org.springframework.mail.MailException;
 import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
@@ -19,31 +20,30 @@ import java.util.logging.Logger;
 @Named
 public class EmailService implements MessageService {
 
-    private JavaMailSender mailSender;
-    //private SimpleMailMessage templateMessage;
+    private MailSender mailSender;
+    private SimpleMailMessage templateMessage;
 
 
-    public void setMailSender(JavaMailSender mailSender) {
+    public void setMailSender(MailSender mailSender) {
         this.mailSender = mailSender;
     }
-
-    //public void setTemplateMessage(SimpleMailMessage templateMessage) {this.templateMessage = templateMessage;}
+    public void setTemplateMessage(SimpleMailMessage templateMessage) {this.templateMessage = templateMessage;}
 
     public boolean sendMessage(String msg, String mailaddress) {
 
-        try {
-            MimeMessage message = mailSender.createMimeMessage();
-            MimeMessageHelper helper;
-            helper = new MimeMessageHelper(message, true);
-            helper.setTo( mailaddress );
-            helper.setText( msg, true );
+
+            SimpleMailMessage message = new SimpleMailMessage( this.templateMessage );
+            message.setTo( "bombonati.nicola@gmail.com" );
+            message.setFrom( "nicovolante83@gmail.com" );
+            message.setSubject( "This is the test message for testing gmail smtp server using spring mail." );
+            message.setText( "Hello!" );
+        try{
             mailSender.send( message );
+        }catch(MailException e){
+            Logger.getLogger( e.getMessage() );
         }
-        catch (MailException e) {
-            System.err.println(e.getMessage());
-        } catch (MessagingException e) {
-            Logger.getLogger( EmailService.class.getName() ).log(Level.SEVERE, null,e);
-        }
+
+
 
         return true;
     }
