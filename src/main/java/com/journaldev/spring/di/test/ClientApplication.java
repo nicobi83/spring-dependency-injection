@@ -20,7 +20,6 @@ public class ClientApplication {
         MyApplication app = context.getBean( MyApplication.class );
         //app.processMessage( "Ciao questo è un messaggio di prova", "bombonati.nicola@gmail.com" );
         context.close();
-
     }
 
 }
