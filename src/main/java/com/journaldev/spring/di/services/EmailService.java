@@ -32,7 +32,7 @@ public class EmailService implements MessageService {
     public boolean sendMessage(String msg, String mailaddress) {
 
 
-            SimpleMailMessage message = new SimpleMailMessage( this.templateMessage );
+            SimpleMailMessage message = new SimpleMailMessage( templateMessage );
             message.setTo( "bombonati.nicola@gmail.com" );
             message.setFrom( "nicovolante83@gmail.com" );
             message.setSubject( "This is the test message for testing gmail smtp server using spring mail." );
