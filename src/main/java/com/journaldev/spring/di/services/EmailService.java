@@ -21,24 +21,26 @@ import java.util.logging.Logger;
 public class EmailService implements MessageService {
 
     private MailSender mailSender;
-    private SimpleMailMessage templateMessage;
-
-
     public void setMailSender(MailSender mailSender) {
         this.mailSender = mailSender;
     }
-    public void setTemplateMessage(SimpleMailMessage templateMessage) { this.templateMessage = templateMessage; }
+
+    private SimpleMailMessage templateMessage;
+    public void setTemplateMessage(SimpleMailMessage templateMessage) {
+        this.templateMessage = templateMessage;
+    }
+
 
     public boolean sendMessage(String msg, String mailaddress) {
-
 
             SimpleMailMessage message = new SimpleMailMessage( templateMessage );
             message.setTo( "bombonati.nicola@gmail.com" );
             message.setFrom( "nicovolante83@gmail.com" );
             message.setSubject( "This is the test message for testing gmail smtp server using spring mail." );
             message.setText( "Hello!" );
+
         try{
-            mailSender.send( message );
+           this.mailSender.send( message );
         }catch(MailException e){
             Logger.getLogger( e.getMessage() );
         }
