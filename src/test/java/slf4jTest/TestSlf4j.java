@@ -21,6 +21,7 @@ public class TestSlf4j {
             logger.trace( "Hello TRACE" );
             logger.error("this is an error");
             logger.debug("DEBUG!!");
+            logger.isTraceEnabled();
             logger.warn("ATTENZIONE!!");
             logger.getName();
      }
