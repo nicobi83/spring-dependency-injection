@@ -1,17 +1,9 @@
 package com.journaldev.spring.di.services;
 
-
-import org.slf4j.LoggerFactory;
 import org.springframework.mail.MailException;
 import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
-import org.springframework.mail.javamail.JavaMailSender;
-import org.springframework.mail.javamail.MimeMessageHelper;
-
 import javax.inject.Named;
-import javax.mail.MessagingException;
-import javax.mail.internet.MimeMessage;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -52,5 +44,3 @@ public class EmailService implements MessageService {
         return true;
     }
 }
-//if (this.templateMessage == null)
-//        {this.templateMessage = setSubject;}
