@@ -9,7 +9,7 @@ import org.springframework.mail.javamail.JavaMailSender;
  */
 public interface MessageService {
 
-    public void setMailSender(MailSender mailSender);
+    //public void setMailSender(MailSender mailSender);
     //public void setTemplateMessage(SimpleMailMessage templateMessage);
     public boolean sendMessage(String msg, String mailaddress );
 

@@ -25,6 +25,10 @@ public class EmailService implements MessageService {
         this.mailSender = mailSender;
     }
 
+    public SimpleMailMessage getTemplateMessage() {
+        return templateMessage;
+    }
+
     private SimpleMailMessage templateMessage;
     public void setTemplateMessage(SimpleMailMessage templateMessage) {
         this.templateMessage = templateMessage;
@@ -45,8 +49,8 @@ public class EmailService implements MessageService {
             Logger.getLogger( e.getMessage() );
         }
 
-
-
         return true;
     }
 }
+//if (this.templateMessage == null)
+//        {this.templateMessage = setSubject;}
