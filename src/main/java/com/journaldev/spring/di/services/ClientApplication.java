@@ -24,6 +24,7 @@ public class ClientApplication {
             properties.load( emailPropertiesStream );
         }catch(IOException e){
             Logger logger = LoggerFactory.getLogger(ClientApplication.class);
+            logger.getName();
             e.printStackTrace();
         }
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext( DIConfiguration.class );
