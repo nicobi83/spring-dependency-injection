@@ -49,7 +49,7 @@ public class EmailService implements MessageService {
         }catch(MailException e){
             logger.error( e.getMessage() );
         }
-        
+
         return true;
     }
 }

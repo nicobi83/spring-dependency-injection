@@ -18,13 +18,13 @@ public class ClientApplication {
 
     public static void main( String[] args )
     {
+        Logger logger = LoggerFactory.getLogger(ClientApplication.class);
         Properties properties = new Properties( System.getProperties() );
         try{
             InputStream emailPropertiesStream = ClientApplication.class.getResourceAsStream( "/email.properties" );
             properties.load( emailPropertiesStream );
         }catch(IOException e){
-            Logger logger = LoggerFactory.getLogger(ClientApplication.class);
-            logger.info( "exception launched" );
+            logger.error( "exception launched" );
             e.printStackTrace();
         }
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext( DIConfiguration.class );
