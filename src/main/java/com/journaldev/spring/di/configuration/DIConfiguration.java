@@ -20,11 +20,3 @@ public class DIConfiguration {
         }
 
 }
-
-
-
-//@ComponentScan si usa soltanto laddove la classe è stata definita come classe di configurazione o bean
-//di configurazione, cosa possibile usando l'annotazione @Configuration.
-//Con "value" dentro @ComponentScan indichiamo il punto dove il framework deve andare a cercare i componenti.
-
-//Con @Bean definisco il metodo che prende l'implementazione del componente da iniettare dentro la classe con @Component
