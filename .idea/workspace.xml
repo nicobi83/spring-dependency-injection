@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/services/EmailService.class" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/services/EmailService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" afterPath="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" />
     </list>
     <ignored path="spring-dependency-injection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +27,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="102">
               <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
               <folding />
             </state>
@@ -75,7 +72,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ClientApplication.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ClientApplication.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -87,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestSlf4j.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TestSlf4j.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <state relative-caret-position="119">
+              <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -129,9 +126,9 @@
         <option value="$PROJECT_DIR$/src/test/java/slf4jTest/HelloWorld.java" />
         <option value="$PROJECT_DIR$/src/main/resources/email.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" />
       </list>
     </option>
   </component>
@@ -395,7 +392,7 @@
       <recent name="com.journaldev.spring.di.services" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ClientApplication">
+  <component name="RunManager" selected="JUnit.TestSlf4j.Hello">
     <configuration default="false" name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -835,8 +832,8 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ClientApplication" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Hello" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Hello" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ClientApplication" />
         <item index="2" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Temperature_misuration" />
         <item index="3" class="java.lang.String" itemvalue="JUnit.TestSlf4j" />
         <item index="4" class="java.lang.String" itemvalue="Application.TestSlf4j" />
@@ -865,9 +862,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 17h 33m 07s.xml">
-      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSlf4j_Hello - 2016.07.07 at 17h 34m 05s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
@@ -887,6 +881,9 @@
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestSlf4j_Hello - 2016.07.08 at 09h 00m 05s.xml">
+      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 11h 49m 33s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestSlf4j_Temperature_misuration - 2016.07.07 at 18h 21m 55s.xml">
@@ -1314,29 +1311,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.16/slf4j-api-1.7.16.jar!/org/slf4j/LoggerFactory.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2397">
           <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1372,10 +1351,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

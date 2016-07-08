@@ -14,8 +14,10 @@ public class TestSlf4j {
     String s = "prova";
     Boolean bool;
 
+
     @Test
      public void Hello() {
+
 
             logger.info("Hello World");
             logger.info("ciao", logger, s);
