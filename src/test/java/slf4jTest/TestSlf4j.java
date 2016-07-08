@@ -12,6 +12,7 @@ public class TestSlf4j {
 
     Logger logger = LoggerFactory.getLogger(TestSlf4j.class);
     String s = "prova";
+    Boolean bool;
 
     @Test
      public void Hello() {
@@ -21,7 +22,8 @@ public class TestSlf4j {
             logger.trace( "Hello TRACE" );
             logger.error("this is an error");
             logger.debug("DEBUG!!");
-            logger.isTraceEnabled();
+            bool = logger.isTraceEnabled();
+            logger.info( bool.toString() );
             logger.warn("ATTENZIONE!!");
             logger.getName();
      }
