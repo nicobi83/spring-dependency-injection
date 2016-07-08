@@ -18,7 +18,6 @@ public class TestSlf4j {
     @Test
      public void Hello() {
 
-
             logger.info("Hello World");
             logger.info("ciao", logger, s);
             logger.error("this is an error");
