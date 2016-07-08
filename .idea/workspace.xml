@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/slf4jTest/TestSlf4j.class" afterPath="$PROJECT_DIR$/target/test-classes/slf4jTest/TestSlf4j.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-dependency-injection.iml" afterPath="$PROJECT_DIR$/spring-dependency-injection.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" afterPath="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/resources/application.properties" afterPath="$PROJECT_DIR$/src/test/resources/application.properties" />
     </list>
     <ignored path="spring-dependency-injection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,7 +28,7 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="204">
               <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
               <folding />
             </state>
@@ -62,8 +60,8 @@
       <file leaf-file-name="TestSlf4j.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="55">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="177">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,7 +73,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -422,7 +420,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -900,21 +898,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 17h 39m 02s.xml">
-      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 18h 35m 09s.xml">
-      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 18h 35m 59s.xml">
-      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 00h 07m 44s.xml">
-      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 09h 00m 05s.xml">
-      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestSlf4j_Hello - 2016.07.08 at 11h 49m 33s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
@@ -922,6 +905,21 @@
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 10m 28s.xml">
+      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 14m 41s.xml">
+      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 15m 52s.xml">
+      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 16m 43s.xml">
+      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 34m 48s.xml">
+      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 39m 20s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestSlf4j_Temperature_misuration - 2016.07.07 at 18h 21m 55s.xml">
@@ -937,7 +935,7 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3261391" sideWeight="0.49789914" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32549942" sideWeight="0.49789914" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41127098" sideWeight="0.5021008" order="7" side_tool="true" content_ui="tabs" />
@@ -1349,7 +1347,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="204">
           <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
           <folding />
         </state>
@@ -1375,8 +1373,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="55">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="177">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1386,7 +1384,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
           <folding />
         </state>
       </provider>
