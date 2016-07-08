@@ -11,23 +11,20 @@ import org.slf4j.LoggerFactory;
 public class TestSlf4j {
 
     Logger logger = LoggerFactory.getLogger(TestSlf4j.class);
-    String s = "prova";
     Boolean bool;
 
 
     @Test
      public void Hello() {
 
-
             logger.info("Hello World");
-            logger.info("ciao", logger, s);
-            logger.trace( "Hello TRACE" );
-            logger.error("this is an error");
+            logger.error("this is an ERROR");
             logger.debug("DEBUG!!");
+            logger.warn("ATTENZIONE!!");
+            logger.info( logger.getName() );
             bool = logger.isTraceEnabled();
             logger.info( bool.toString() );
-            logger.warn("ATTENZIONE!!");
-            logger.getName();
+            logger.trace( "This is a TRACE" );
      }
 
     @Test
