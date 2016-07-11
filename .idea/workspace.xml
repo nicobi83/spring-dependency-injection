@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="" />
+    <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="spring-dependency-injection.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,11 +59,19 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="TestSlf4j.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+=======
+      <file leaf-file-name="TestSlf4j.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+>>>>>>> bozza
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -68,6 +79,31 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+=======
+      <file leaf-file-name="TestProperties.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+>>>>>>> bozza
       <file leaf-file-name="EmailService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -135,6 +171,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java" />
       </list>
     </option>
   </component>
@@ -262,9 +300,60 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-dependency-injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-dependency-injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-dependency-injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spring-dependency-injection" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="propertiesTest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+>>>>>>> bozza
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -386,7 +475,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.other" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -394,7 +483,7 @@
       <recent name="com.journaldev.spring.di.services" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestSlf4j.Hello">
+  <component name="RunManager" selected="JUnit.TestProperties.writeProperties">
     <configuration default="false" name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -403,26 +492,6 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="com.journaldev.spring.di.services.ClientApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spring-dependency-injection" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestSlf4j" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="slf4jTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="slf4jTest.TestSlf4j" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -500,6 +569,32 @@
       <option name="PACKAGE_NAME" value="slf4jTest" />
       <option name="MAIN_CLASS_NAME" value="slf4jTest.TestSlf4j" />
       <option name="METHOD_NAME" value="Temperature_misuration" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestProperties.writeProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="propertiesTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-dependency-injection" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="propertiesTest" />
+      <option name="MAIN_CLASS_NAME" value="propertiesTest.TestProperties" />
+      <option name="METHOD_NAME" value="writeProperties" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -827,18 +922,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.ClientApplication" />
-      <item index="1" class="java.lang.String" itemvalue="Application.TestSlf4j" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Hello" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSlf4j" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Temperature_misuration" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Hello" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSlf4j" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Temperature_misuration" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestProperties.writeProperties" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Hello" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ClientApplication" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Temperature_misuration" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSlf4j" />
-        <item index="4" class="java.lang.String" itemvalue="Application.TestSlf4j" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestProperties.writeProperties" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Hello" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ClientApplication" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Temperature_misuration" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSlf4j" />
       </list>
     </recent_temporary>
   </component>
@@ -864,28 +959,28 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 17h 34m 05s.xml">
+    <history-entry file="TestProperties_writeProperties - 2016.07.11 at 10h 34m 58s.xml">
+      <configuration name="TestProperties.writeProperties" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 12h 10m 08s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 17h 35m 07s.xml">
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 10m 28s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 17h 39m 02s.xml">
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 14m 41s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 18h 35m 09s.xml">
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 15m 52s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.07 at 18h 35m 59s.xml">
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 16m 43s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 00h 07m 44s.xml">
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 34m 48s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 09h 00m 05s.xml">
-      <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 11h 49m 33s.xml">
+    <history-entry file="TestSlf4j_Hello - 2016.07.08 at 17h 39m 20s.xml">
       <configuration name="TestSlf4j.Hello" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestSlf4j_Temperature_misuration - 2016.07.07 at 18h 21m 55s.xml">
@@ -947,6 +1042,7 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/TwitterService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -969,6 +1065,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> bozza
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1231,6 +1329,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -1238,6 +1337,8 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+=======
+>>>>>>> bozza
         </state>
       </provider>
     </entry>
@@ -1276,6 +1377,7 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/resources/email.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1284,6 +1386,8 @@
         </state>
       </provider>
     </entry>
+=======
+>>>>>>> bozza
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1298,14 +1402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/consumer/MyApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1313,21 +1409,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.0.RELEASE/spring-context-support-4.3.0.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+<<<<<<< HEAD
+        <state relative-caret-position="238">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+=======
+        <state relative-caret-position="323">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
         </state>
       </provider>
     </entry>
@@ -1340,6 +1429,54 @@
             <element signature="e#1141#1142#0" expanded="false" />
             <element signature="e#1195#1196#0" expanded="false" />
           </folding>
+>>>>>>> bozza
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="0">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+=======
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+>>>>>>> bozza
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/email.properties">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+          <folding />
+>>>>>>> bozza
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="578">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#1141#1142#0" expanded="false" />
+            <element signature="e#1195#1196#0" expanded="false" />
+          </folding>
+=======
+        <state relative-caret-position="0">
+          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+>>>>>>> bozza
         </state>
       </provider>
     </entry>
@@ -1350,6 +1487,17 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
+<<<<<<< HEAD
+=======
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+          <folding />
+>>>>>>> bozza
         </state>
       </provider>
     </entry>
@@ -1357,6 +1505,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
