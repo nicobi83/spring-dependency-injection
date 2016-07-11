@@ -26,7 +26,7 @@ public class TestProperties {
 
             String filename = "config.properties";
             out = new FileOutputStream(filename);
-            prop.setProperty("textcolor", "green");
+            prop.setProperty("textcolor", "Green");
             prop.setProperty("textfont", "Arial");
             prop.store(out, comments);
 
