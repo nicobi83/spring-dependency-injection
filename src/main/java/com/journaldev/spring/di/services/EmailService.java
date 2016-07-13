@@ -47,7 +47,7 @@ public class EmailService implements MessageService {
         try{
            this.mailSender.send( message );
         }catch(MailException e){
-            logger.error( e.getMessage() );
+            logger.error( e.getLocalizedMessage() );
         }
 
         return true;
