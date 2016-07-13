@@ -22,6 +22,7 @@ public class EmailService implements MessageService {
     Logger logger = LoggerFactory.getLogger( EmailService.class );
     Properties prop = new Properties(System.getProperties());
     InputStream in = null;
+    SimpleMailMessage templateMessage = new SimpleMailMessage();
 
     private MailSender mailSender;
     public void setMailSender(MailSender mailSender) {
@@ -30,10 +31,10 @@ public class EmailService implements MessageService {
 
     }
 
-    private SimpleMailMessage templateMessage;
     public SimpleMailMessage getTemplateMessage() {
 
         if(this.templateMessage == null)  {
+                this.templateMessage = new SimpleMailMessage();
                 setTemplateMessage(templateMessage);
                 logger.info(this.templateMessage.getFrom());
                 logger.info(this.templateMessage.getReplyTo());
@@ -44,10 +45,8 @@ public class EmailService implements MessageService {
     }
     public void setTemplateMessage(SimpleMailMessage templateMessage) {
 
-        this.templateMessage = new SimpleMailMessage();
-
         try {
-            in = new FileInputStream("email.properties");
+            in = new FileInputStream("email.properties");//meglio usare getResources
             prop.load(in);
             this.templateMessage.setFrom( prop.getProperty("email.from") );
             this.templateMessage.setTo( prop.getProperty("email.to") );
@@ -56,6 +55,7 @@ public class EmailService implements MessageService {
 
         } catch (FileNotFoundException e) {
             e.printStackTrace();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -76,3 +76,5 @@ public class EmailService implements MessageService {
         return true;
     }
 }
+
+//me
