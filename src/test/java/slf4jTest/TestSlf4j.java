@@ -26,12 +26,11 @@ public class TestSlf4j {
             logger.info("ciao", logger, s);
             logger.error("this is an error");
             logger.debug("DEBUG!!");
-            logger.warn("ATTENZIONE!!");
             logger.info( logger.getName() );
             bool = logger.isTraceEnabled();
             logger.info( bool.toString() );
             logger.trace( "This is a TRACE" );
-            logger.warn("ATTENZIONE!!");
+            logger.warn("WARNING!!");
             s = logger.getName();
             logger.info( s );
             logger.trace( "Hello TRACE" );
