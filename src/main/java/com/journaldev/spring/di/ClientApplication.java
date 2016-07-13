@@ -1,4 +1,4 @@
-package com.journaldev.spring.di.services;
+package com.journaldev.spring.di;
 
 import com.journaldev.spring.di.configuration.DIConfiguration;
 import com.journaldev.spring.di.consumer.MyApplication;
