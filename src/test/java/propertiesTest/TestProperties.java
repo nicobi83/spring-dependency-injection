@@ -40,6 +40,7 @@ public class TestProperties {
         } finally {
             if (out != null) {
                 try {
+                    logger.info("FILE SUCCESSFULLY CREATED!!");
                     out.close();
                 } catch (IOException e) {
                     e.printStackTrace();
