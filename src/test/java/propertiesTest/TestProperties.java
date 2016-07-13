@@ -114,7 +114,7 @@ public class TestProperties {
 
 
         try {
-            in = TestProperties.class.getResourceAsStream("/email.properties");
+            in = new FileInputStream("email.properties");
             if(in==null){
                 logger.error("File not found");
             }

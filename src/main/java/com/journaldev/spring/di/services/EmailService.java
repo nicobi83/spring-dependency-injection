@@ -7,6 +7,10 @@ import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 
 import javax.inject.Named;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
 import java.util.Properties;
 
 /**
@@ -17,6 +21,7 @@ public class EmailService implements MessageService {
 
     Logger logger = LoggerFactory.getLogger( EmailService.class );
     Properties prop = new Properties(System.getProperties());
+    InputStream in = null;
 
     private MailSender mailSender;
     public void setMailSender(MailSender mailSender) {
@@ -40,10 +45,20 @@ public class EmailService implements MessageService {
     public void setTemplateMessage(SimpleMailMessage templateMessage) {
 
         this.templateMessage = new SimpleMailMessage();
-        this.templateMessage.setSubject( prop.getProperty("email.subject") );
-        this.templateMessage.setFrom( prop.getProperty("email.from") );
-        this.templateMessage.setText( prop.getProperty("email.text") );
-        this.templateMessage.setTo( prop.getProperty("email.to") );
+
+        try {
+            in = new FileInputStream("email.properties");
+            prop.load(in);
+            this.templateMessage.setFrom( prop.getProperty("email.from") );
+            this.templateMessage.setTo( prop.getProperty("email.to") );
+            this.templateMessage.setSubject( prop.getProperty("email.subject") );
+            this.templateMessage.setText( prop.getProperty("email.text") );
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 
