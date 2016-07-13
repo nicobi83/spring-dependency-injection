@@ -77,4 +77,6 @@ public class EmailService implements MessageService {
     }
 }
 
-//me
+//"setter" imposta il parametro che passo in ingresso al metodo setter ma non restituisce nulla.
+//"getter" è il metodo che ritorna il valore MA NON NESSUN PARAMETRO IN INGRESSO
+//con "getter & setter" posso usare if che mi serve per settare il parametro qualora non sia impostato.
