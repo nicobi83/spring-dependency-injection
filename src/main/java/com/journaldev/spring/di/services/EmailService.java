@@ -36,10 +36,8 @@ public class EmailService implements MessageService {
         if(this.templateMessage == null)  {
                 this.templateMessage = new SimpleMailMessage();
                 setTemplateMessage(templateMessage);
-                logger.info(this.templateMessage.getFrom());
-                logger.info(this.templateMessage.getReplyTo());
-                logger.info(this.templateMessage.getSubject());
-                logger.info(this.templateMessage.getText());
+                logger.info(this.templateMessage.getFrom() + this.templateMessage.getReplyTo()
+                            + this.templateMessage.getSubject() + this.templateMessage.getText());
         }
         return templateMessage;
     }
