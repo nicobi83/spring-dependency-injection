@@ -22,7 +22,7 @@ public class TestProperties {
     @Test
     public void writeProperties() {
 
-        String comments = "This is only a test file!";
+        String comments = "This is only a property file!";
 
         try {
 
