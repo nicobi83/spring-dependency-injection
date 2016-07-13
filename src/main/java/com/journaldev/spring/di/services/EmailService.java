@@ -46,7 +46,7 @@ public class EmailService implements MessageService {
     public void setTemplateMessage(SimpleMailMessage templateMessage) {
 
         try {
-            in = new FileInputStream("email.properties");//meglio usare getResources
+            in = new FileInputStream("email.properties");
             prop.load(in);
             this.templateMessage.setFrom( prop.getProperty("email.from") );
             this.templateMessage.setTo( prop.getProperty("email.to") );
@@ -77,4 +77,3 @@ public class EmailService implements MessageService {
     }
 }
 
-//me
