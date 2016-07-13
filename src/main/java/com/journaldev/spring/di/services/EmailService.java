@@ -7,6 +7,11 @@ import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 
 import javax.inject.Named;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.util.Properties;
 
 /**
  * Created by NICOLA on 24/06/2016.
@@ -15,6 +20,9 @@ import javax.inject.Named;
 public class EmailService implements MessageService {
 
     Logger logger = LoggerFactory.getLogger( EmailService.class );
+    Properties prop = new Properties(System.getProperties());
+    InputStream in = null;
+    SimpleMailMessage templateMessage = new SimpleMailMessage();
 
     private MailSender mailSender;
     public void setMailSender(MailSender mailSender) {
@@ -23,20 +31,35 @@ public class EmailService implements MessageService {
 
     }
 
-    private SimpleMailMessage templateMessage;
     public SimpleMailMessage getTemplateMessage() {
 
         if(this.templateMessage == null)  {
-            this.templateMessage = new SimpleMailMessage();
-            this.templateMessage.setSubject("Test - template");
-            this.templateMessage.setFrom("n.b@gmail.com");
-            this.templateMessage.setText("tesst test");
-            this.templateMessage.setTo("mcb@gmail.com");
+                this.templateMessage = new SimpleMailMessage();
+                setTemplateMessage(templateMessage);
+                logger.info(this.templateMessage.getFrom());
+                logger.info(this.templateMessage.getReplyTo());
+                logger.info(this.templateMessage.getSubject());
+                logger.info(this.templateMessage.getText());
         }
         return templateMessage;
     }
     public void setTemplateMessage(SimpleMailMessage templateMessage) {
-        this.templateMessage = templateMessage;
+
+        try {
+            in = new FileInputStream("email.properties");//meglio usare getResources
+            prop.load(in);
+            this.templateMessage.setFrom( prop.getProperty("email.from") );
+            this.templateMessage.setTo( prop.getProperty("email.to") );
+            this.templateMessage.setSubject( prop.getProperty("email.subject") );
+            this.templateMessage.setText( prop.getProperty("email.text") );
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
     public boolean sendMessage(String msg, String mailaddress) {
@@ -47,9 +70,11 @@ public class EmailService implements MessageService {
         try{
            this.mailSender.send( message );
         }catch(MailException e){
-            logger.error( e.getMessage() );
+            logger.error( e.getLocalizedMessage() );
         }
 
         return true;
     }
 }
+
+//me

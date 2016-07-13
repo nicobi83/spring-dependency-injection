@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="" />
+=======
+    <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/consumer/MyApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/consumer/MyXMLApplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/TwitterService.java" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/ClientApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
+    </list>
+>>>>>>> master
     <ignored path="spring-dependency-injection.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,6 +48,21 @@
             <state relative-caret-position="204">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
+<<<<<<< HEAD
+=======
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -45,8 +70,13 @@
       <file leaf-file-name="TestSlf4j.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="-217">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+=======
+            <state relative-caret-position="-115">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+>>>>>>> master
               <folding />
             </state>
           </provider>
@@ -55,8 +85,13 @@
       <file leaf-file-name="TestProperties.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="480">
               <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+=======
+            <state relative-caret-position="922">
+              <caret line="118" column="47" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
+>>>>>>> master
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,6 +99,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="EmailService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,6 +109,24 @@
                 <element signature="e#1141#1142#0" expanded="true" />
                 <element signature="e#1195#1196#0" expanded="true" />
               </folding>
+=======
+      <file leaf-file-name="email.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/email.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmailService.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="310">
+              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+              <folding />
+>>>>>>> master
             </state>
           </provider>
         </entry>
@@ -116,12 +170,17 @@
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/test/ClientApplication.java" />
         <option value="$PROJECT_DIR$/src/test/java/slf4jTest/HelloWorld.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java" />
-        <option value="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/email.properties" />
         <option value="$PROJECT_DIR$/src/test/resources/application.properties" />
+        <option value="$PROJECT_DIR$/config.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PropFileGenService.java" />
+        <option value="$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/TestProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/email.properties" />
         <option value="$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/ClientApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java" />
       </list>
     </option>
   </component>
@@ -337,10 +396,6 @@
               <option name="myItemId" value="di" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="services" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -367,6 +422,13 @@
               <option name="myItemId" value="di" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+>>>>>>> master
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -415,95 +477,23 @@
       <recent name="com.journaldev.spring.di.services" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\NICOLA\git\javaprojects\spring-dependency-injection\src\test\java\propertiesTest" />
+      <recent name="C:\Users\NICOLA\git\javaprojects\spring-dependency-injection" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestProperties.loadPropFromClasspath">
-    <configuration default="false" name="ClientApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.TestProperties.setTemplateMessage">
+    <configuration default="false" name="TestProperties.writeProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.journaldev.spring.di.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.journaldev.spring.di.services.ClientApplication" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="spring-dependency-injection" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestSlf4j.Hello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="slf4jTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <module name="spring-dependency-injection" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="slf4jTest" />
-      <option name="MAIN_CLASS_NAME" value="slf4jTest.TestSlf4j" />
-      <option name="METHOD_NAME" value="Hello" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestProperties.writeProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="propertiesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-dependency-injection" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="propertiesTest" />
-      <option name="MAIN_CLASS_NAME" value="propertiesTest.TestProperties" />
+      <option name="PACKAGE_NAME" value="com.journaldev.spring.di.services" />
+      <option name="MAIN_CLASS_NAME" value="com.journaldev.spring.di.services.TestProperties" />
       <option name="METHOD_NAME" value="writeProperties" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestProperties.loadProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="propertiesTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="spring-dependency-injection" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="propertiesTest" />
-      <option name="MAIN_CLASS_NAME" value="propertiesTest.TestProperties" />
-      <option name="METHOD_NAME" value="loadProperties" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -520,6 +510,78 @@
     <configuration default="false" name="TestProperties.loadPropFromClasspath" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
+          <option name="PATTERN" value="com.journaldev.spring.di.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-dependency-injection" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.journaldev.spring.di.services" />
+      <option name="MAIN_CLASS_NAME" value="com.journaldev.spring.di.services.TestProperties" />
+      <option name="METHOD_NAME" value="loadPropFromClasspath" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestProperties" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.journaldev.spring.di.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="spring-dependency-injection" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.journaldev.spring.di.services" />
+      <option name="MAIN_CLASS_NAME" value="com.journaldev.spring.di.services.TestProperties" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.journaldev.spring.di.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.journaldev.spring.di.Application" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spring-dependency-injection" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestProperties.setTemplateMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
           <option name="PATTERN" value="propertiesTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
@@ -529,7 +591,7 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="propertiesTest" />
       <option name="MAIN_CLASS_NAME" value="propertiesTest.TestProperties" />
-      <option name="METHOD_NAME" value="loadPropFromClasspath" />
+      <option name="METHOD_NAME" value="setTemplateMessage" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -856,19 +918,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.ClientApplication" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Hello" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestProperties.writeProperties" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestProperties.loadProperties" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestProperties.loadPropFromClasspath" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.TestProperties.writeProperties" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestProperties.loadPropFromClasspath" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestProperties" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Application" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestProperties.setTemplateMessage" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestProperties.loadPropFromClasspath" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestProperties.loadProperties" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestProperties.writeProperties" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestSlf4j.Hello" />
-        <item index="4" class="java.lang.String" itemvalue="Application.ClientApplication" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestProperties.setTemplateMessage" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Application" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestProperties" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestProperties.writeProperties" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestProperties.loadPropFromClasspath" />
       </list>
     </recent_temporary>
   </component>
@@ -894,35 +956,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestProperties_loadPropFromClasspath - 2016.07.11 at 12h 00m 49s.xml">
-      <configuration name="TestProperties.loadPropFromClasspath" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 09m 41s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadPropFromClasspath - 2016.07.11 at 12h 03m 17s.xml">
-      <configuration name="TestProperties.loadPropFromClasspath" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 12m 38s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadPropFromClasspath - 2016.07.11 at 12h 13m 38s.xml">
-      <configuration name="TestProperties.loadPropFromClasspath" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 13m 50s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadProperties - 2016.07.11 at 11h 29m 00s.xml">
-      <configuration name="TestProperties.loadProperties" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 15m 04s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadProperties - 2016.07.11 at 11h 29m 36s.xml">
-      <configuration name="TestProperties.loadProperties" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 17m 21s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadProperties - 2016.07.11 at 11h 31m 55s.xml">
-      <configuration name="TestProperties.loadProperties" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 17m 50s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadProperties - 2016.07.11 at 11h 32m 31s.xml">
-      <configuration name="TestProperties.loadProperties" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 18m 47s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadProperties - 2016.07.11 at 11h 33m 09s.xml">
-      <configuration name="TestProperties.loadProperties" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 29m 34s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadProperties - 2016.07.11 at 11h 34m 57s.xml">
-      <configuration name="TestProperties.loadProperties" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 30m 46s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestProperties_loadProperties - 2016.07.11 at 12h 00m 31s.xml">
-      <configuration name="TestProperties.loadProperties" configurationId="JUnit" />
+    <history-entry file="TestProperties_setTemplateMessage - 2016.07.13 at 18h 39m 48s.xml">
+      <configuration name="TestProperties.setTemplateMessage" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -968,7 +1030,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="20" />
+      <option name="time" value="27" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1003,10 +1065,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#1141#1142#0" expanded="true" />
             <element signature="e#1195#1196#0" expanded="true" />
           </folding>
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1028,20 +1093,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/consumer/MyXMLApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -1098,6 +1156,9 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java">
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java">
+>>>>>>> master
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1133,10 +1194,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#1141#1142#0" expanded="true" />
             <element signature="e#1195#1196#0" expanded="true" />
           </folding>
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1159,10 +1223,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#1141#1142#0" expanded="true" />
             <element signature="e#1195#1196#0" expanded="true" />
           </folding>
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1185,10 +1252,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding>
             <element signature="e#1141#1142#0" expanded="true" />
             <element signature="e#1195#1196#0" expanded="true" />
           </folding>
+=======
+>>>>>>> master
         </state>
       </provider>
     </entry>
@@ -1227,6 +1297,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.0.RELEASE/spring-context-support-4.3.0.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1262,6 +1339,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/email.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.8.1/junit-4.8.1.jar!/org/junit/runners/model/FrameworkMethod.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="159">
@@ -1276,17 +1360,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/consumer/MyApplication.java">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state relative-caret-position="-2895">
+          <caret line="1122" column="16" selection-start-line="1122" selection-start-column="16" selection-end-line="1122" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.0.RELEASE/spring-context-support-4.3.0.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/Class.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="58" selection-start-line="28" selection-start-column="58" selection-end-line="28" selection-end-column="58" />
+        <state relative-caret-position="160">
+          <caret line="676" column="23" selection-start-line="676" selection-start-column="23" selection-end-line="676" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1294,6 +1378,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="204">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+>>>>>>> master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PropFileGenService.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
+        <state relative-caret-position="-217">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+=======
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+>>>>>>> master
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/4.3.0.RELEASE/spring-context-4.3.0.RELEASE.jar!/org/springframework/context/support/AbstractApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="596" column="17" selection-start-line="596" selection-start-column="17" selection-end-line="596" selection-end-column="17" />
           <folding />
         </state>
       </provider>
@@ -1306,52 +1435,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context-support/4.3.0.RELEASE/spring-context-support-4.3.0.RELEASE.jar!/org/springframework/mail/SimpleMailMessage.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-217">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/ClientApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="26" column="41" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="174">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#1141#1142#0" expanded="true" />
             <element signature="e#1195#1196#0" expanded="true" />
           </folding>
+=======
+        <state relative-caret-position="160">
+          <caret line="109" column="16" selection-start-line="109" selection-start-column="16" selection-end-line="109" selection-end-column="16" />
+          <folding>
+            <element signature="e#2488#2489#0" expanded="true" />
+            <element signature="e#2526#2527#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.properties">
+    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
+          <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+          <folding />
+>>>>>>> master
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+<<<<<<< HEAD
           <caret line="0" column="26" selection-start-line="0" selection-start-column="26" selection-end-line="0" selection-end-column="26" />
+=======
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+>>>>>>> master
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/email.properties">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="17">
           <caret line="1" column="6" selection-start-line="1" selection-start-column="6" selection-end-line="1" selection-end-column="6" />
         </state>
@@ -1362,16 +1488,78 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="92" column="17" selection-start-line="92" selection-start-column="17" selection-end-line="92" selection-end-column="17" />
+=======
+        <state relative-caret-position="51">
+          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/slf4jTest/TestSlf4j.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-115">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_77/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="632" column="16" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
+          <folding>
+            <element signature="e#26222#26223#0" expanded="true" />
+            <element signature="e#26265#26266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="922">
+          <caret line="118" column="47" selection-start-line="118" selection-start-column="47" selection-end-line="118" selection-end-column="47" />
+>>>>>>> master
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/email.properties">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/consumer/MyApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="28" column="117" selection-start-line="28" selection-start-column="117" selection-end-line="28" selection-end-column="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="2" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="13" />
+=======
+        <state relative-caret-position="310">
+          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+>>>>>>> master
           <folding />
         </state>
       </provider>

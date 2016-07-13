@@ -1,8 +1,10 @@
 package propertiesTest;
 
+import org.junit.Assert;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.mail.SimpleMailMessage;
 
 import java.io.*;
 import java.util.Properties;
@@ -13,20 +15,22 @@ import java.util.Properties;
 public class TestProperties {
 
     Logger logger = LoggerFactory.getLogger(TestProperties.class);
-    Properties prop = new Properties();
+    Properties prop = new Properties( System.getProperties() );
     OutputStream out = null;
     InputStream in = null;
+    InputStream in2 = null;
+    public SimpleMailMessage templateMessage;
 
     @Test
     public void writeProperties() {
 
-        String comments = "This is only a test file!";
+        String comments = "This is only a property file!";
 
         try {
 
-            String filename = "config.properties";
+            String filename = "src\\main\\resources\\config.properties";
             out = new FileOutputStream(filename);
-            prop.setProperty("textcolor", "green");
+            prop.setProperty("textcolor", "Green");
             prop.setProperty("textfont", "Arial");
             prop.store(out, comments);
 
@@ -38,6 +42,7 @@ public class TestProperties {
         } finally {
             if (out != null) {
                 try {
+                    logger.info("FILE SUCCESSFULLY CREATED!!");
                     out.close();
                 } catch (IOException e) {
                     e.printStackTrace();
@@ -73,26 +78,57 @@ public class TestProperties {
     public void loadPropFromClasspath() {
 
         try {
-            String filename = "config.properties";
-            in = TestProperties.class.getClassLoader().getResourceAsStream(filename);
+
+            in = getClass().getClassLoader().getResourceAsStream("application.properties");
+            in2 = getClass().getResourceAsStream("config.properties");
             if (in == null) {
                 logger.error("ERROR!!!! File not present");
                 return;
             }
+            if (in2 == null) {
+                logger.error("ERROR!!!! File not present");
+                return;
+            }
             prop.load(in);
-            logger.info( prop.getProperty("textcolor") );
-            logger.info( prop.getProperty("textfont") );
+            prop.load(in2);
+            logger.info(prop.getProperty("logging.level"));
+            logger.info(prop.getProperty("logging.file"));
+            logger.info(prop.getProperty("textfont"));
+            logger.info(prop.getProperty("textcolor"));
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if(in != null){
+            if (in != null && in !=null) {
                 try {
                     in.close();
+                    in2.close();
                 } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
         }
+    }
+
+    @Test
+    public void setTemplateMessage() {
+
+
+        try {
+            in = new FileInputStream("email.properties");
+            if(in==null){
+                logger.error("File not found");
+            }
+            prop.load(in);
+            templateMessage = new SimpleMailMessage();
+            templateMessage.setSubject( prop.getProperty("email.subject") );
+            templateMessage.setFrom( prop.getProperty("email.from") );
+            templateMessage.setText( prop.getProperty("email.text") );
+            templateMessage.setTo( prop.getProperty("email.to") );
+            logger.info( templateMessage.getFrom());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
     }
 
 }

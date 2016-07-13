@@ -1,7 +1,6 @@
-package com.journaldev.spring.di.services;
+package com.journaldev.spring.di;
 
 import com.journaldev.spring.di.configuration.DIConfiguration;
-import com.journaldev.spring.di.consumer.MyApplication;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
@@ -14,22 +13,20 @@ import java.util.Properties;
  * Created by NICOLA on 27/06/2016.
  */
 
-public class ClientApplication {
+public class Application {
 
     public static void main( String[] args )
     {
-        Logger logger = LoggerFactory.getLogger(ClientApplication.class);
+        Logger logger = LoggerFactory.getLogger(Application.class);
         Properties properties = new Properties( System.getProperties() );
         try{
-            InputStream emailPropertiesStream = ClientApplication.class.getResourceAsStream( "/email.properties" );
+            InputStream emailPropertiesStream = Application.class.getResourceAsStream( "/email.properties" );
             properties.load( emailPropertiesStream );
         }catch(IOException e){
             logger.error( "exception launched" );
             e.printStackTrace();
         }
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext( DIConfiguration.class );
-        MyApplication app = context.getBean( MyApplication.class );
-        app.processMessage( "Ciao questo è un messaggio di prova", "bombonati.nicola@gmail.com" );
         context.close();
     }
 }
