@@ -14,7 +14,7 @@ import java.util.Properties;
 public class TestProperties {
 
     Logger logger = LoggerFactory.getLogger(TestProperties.class);
-    Properties prop = new Properties();
+    Properties prop = new Properties( System.getProperties() );
     OutputStream out = null;
     InputStream in = null;
     InputStream in2 = null;
@@ -26,7 +26,7 @@ public class TestProperties {
 
         try {
 
-            String filename = "config.properties";
+            String filename = "src\\main\\resources\\config.properties";
             out = new FileOutputStream(filename);
             prop.setProperty("textcolor", "Green");
             prop.setProperty("textfont", "Arial");
