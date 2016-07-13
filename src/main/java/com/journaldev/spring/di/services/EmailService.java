@@ -7,6 +7,7 @@ import org.springframework.mail.MailSender;
 import org.springframework.mail.SimpleMailMessage;
 
 import javax.inject.Named;
+import java.util.Properties;
 
 /**
  * Created by NICOLA on 24/06/2016.
@@ -15,6 +16,7 @@ import javax.inject.Named;
 public class EmailService implements MessageService {
 
     Logger logger = LoggerFactory.getLogger( EmailService.class );
+    Properties prop = new Properties(System.getProperties());
 
     private MailSender mailSender;
     public void setMailSender(MailSender mailSender) {
@@ -27,16 +29,22 @@ public class EmailService implements MessageService {
     public SimpleMailMessage getTemplateMessage() {
 
         if(this.templateMessage == null)  {
-            this.templateMessage = new SimpleMailMessage();
-            this.templateMessage.setSubject("Test - template");
-            this.templateMessage.setFrom("n.b@gmail.com");
-            this.templateMessage.setText("tesst test");
-            this.templateMessage.setTo("mcb@gmail.com");
+                setTemplateMessage(templateMessage);
+                logger.info(this.templateMessage.getFrom());
+                logger.info(this.templateMessage.getReplyTo());
+                logger.info(this.templateMessage.getSubject());
+                logger.info(this.templateMessage.getText());
         }
         return templateMessage;
     }
     public void setTemplateMessage(SimpleMailMessage templateMessage) {
-        this.templateMessage = templateMessage;
+
+        this.templateMessage = new SimpleMailMessage();
+        this.templateMessage.setSubject( prop.getProperty("email.subject") );
+        this.templateMessage.setFrom( prop.getProperty("email.from") );
+        this.templateMessage.setText( prop.getProperty("email.text") );
+        this.templateMessage.setTo( prop.getProperty("email.to") );
+
     }
 
     public boolean sendMessage(String msg, String mailaddress) {
