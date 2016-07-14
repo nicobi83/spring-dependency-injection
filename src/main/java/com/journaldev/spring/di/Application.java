@@ -1,8 +1,10 @@
 package com.journaldev.spring.di;
 
 import com.journaldev.spring.di.configuration.DIConfiguration;
+import com.journaldev.spring.di.services.PersonService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 import java.io.IOException;
@@ -15,18 +17,21 @@ import java.util.Properties;
 
 public class Application {
 
-    public static void main( String[] args )
-    {
+
+    public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(Application.class);
-        Properties properties = new Properties( System.getProperties() );
-        try{
-            InputStream emailPropertiesStream = Application.class.getResourceAsStream( "/email.properties" );
-            properties.load( emailPropertiesStream );
-        }catch(IOException e){
-            logger.error( "exception launched" );
+        Properties properties = new Properties(System.getProperties());
+
+        try {
+            InputStream emailPropertiesStream = Application.class.getResourceAsStream("/email.properties");
+            properties.load(emailPropertiesStream);
+            AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
+            context.getBean(PersonService.class);
+        } catch (IOException e) {
+            logger.error("exception launched");
             e.printStackTrace();
         }
-        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext( DIConfiguration.class );
+        AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
         context.close();
     }
 }

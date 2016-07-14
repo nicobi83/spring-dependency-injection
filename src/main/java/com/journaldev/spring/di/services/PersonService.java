@@ -15,33 +15,34 @@ public class PersonService {
 
     Logger logger = LoggerFactory.getLogger(this.getClass());
     Person person;
-    Properties prop = new Properties( System.getProperties() );
+    Properties prop = new Properties(System.getProperties());
     InputStream in;
 
     public Person getPerson() {
         return person;
     }
 
+
     public void setPerson(Person person) {
 
 
-        in = getClass().getResourceAsStream("/person.porperties");
+        in = getClass().getResourceAsStream("/person.properties");
         try {
             prop.load(in);
-            person.setName( prop.getProperty("person.name") );
-            person.setSurname( prop.getProperty( "person.surname" ) );
-            person.setCountry( prop.getProperty( "person.country" ) );
-            person.setNationality( prop.getProperty( "person.nationality" ) );
+            person.setName(prop.getProperty("person.name"));
+            person.setSurname(prop.getProperty("person.surname"));
+            person.setCountry(prop.getProperty("person.country"));
+            person.setNationality(prop.getProperty("person.nationality"));
 
         } catch (IOException e) {
-            logger.error("ERROR!! File not found", e.getCause().toString() );
+            logger.error("ERROR!! File not found", e.getCause().toString());
             e.printStackTrace();
-        }finally {
+        } finally {
             try {
                 in.close();
                 logger.info("Person initialization completed successfully!!");
             } catch (IOException e) {
-                logger.error("Error in initialization", e.getCause().toString() );
+                logger.error("Error in initialization", e.getCause().toString());
                 e.printStackTrace();
             }
         }
