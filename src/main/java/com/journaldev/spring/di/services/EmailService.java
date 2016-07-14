@@ -23,6 +23,7 @@ public class EmailService implements MessageService {
     InputStream in = null;
     SimpleMailMessage templateMessage = new SimpleMailMessage();
 
+
     private MailSender mailSender;
 
     public void setMailSender(MailSender mailSender) {
@@ -63,7 +64,10 @@ public class EmailService implements MessageService {
 
     public boolean sendMessage(String msg, String mailaddress) {
 
-        SimpleMailMessage message = new SimpleMailMessage(this.getTemplateMessage());
+        SimpleMailMessage message = new SimpleMailMessage( this.getTemplateMessage() );
+        logger.info("I am sending your message with the information reported below: ");
+        logger.info(this.templateMessage.getFrom() + this.templateMessage.getReplyTo()
+                + this.templateMessage.getSubject() + this.templateMessage.getText());
         message.setText("Hello!");
 
         try {

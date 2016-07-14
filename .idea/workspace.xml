@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/resources/email.properties" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/ClientApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/consumer/MyApplication.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/consumer/MyXMLApplication.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/services/EmailService.class" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/services/EmailService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/propertiesTest/TestProperties.class" afterPath="$PROJECT_DIR$/target/test-classes/propertiesTest/TestProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java" afterPath="$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java" />
     </list>
     <ignored path="spring-dependency-injection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,8 +61,8 @@
       <file leaf-file-name="EmailService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+            <state relative-caret-position="208">
+              <caret line="67" column="84" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -1265,8 +1257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+        <state relative-caret-position="208">
+          <caret line="67" column="84" selection-start-line="67" selection-start-column="84" selection-end-line="67" selection-end-column="84" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
