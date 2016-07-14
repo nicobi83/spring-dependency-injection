@@ -25,8 +25,6 @@ public class Application {
         try {
             InputStream emailPropertiesStream = Application.class.getResourceAsStream("/email.properties");
             properties.load(emailPropertiesStream);
-            AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
-            context.getBean(PersonService.class);
         } catch (IOException e) {
             logger.error("exception launched");
             e.printStackTrace();

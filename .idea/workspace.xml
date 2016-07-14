@@ -2,19 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_48.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_beanshell_bsh_2_0b4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_6_9_10.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/email.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/configuration/DIConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/configuration/DIConfiguration.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/services/EmailService.class" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/services/EmailService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/propertiesTest/TestProperties.class" afterPath="$PROJECT_DIR$/target/test-classes/propertiesTest/TestProperties.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spring-dependency-injection.iml" afterPath="$PROJECT_DIR$/spring-dependency-injection.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java" afterPath="$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java" />
     </list>
     <ignored path="spring-dependency-injection.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,26 +34,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PersonService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="DIConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
+            <state relative-caret-position="323">
               <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-              <folding />
+              <folding>
+                <marker date="1468502642344" expanded="true" signature="679:681" placeholder="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,35 +49,10 @@
       <file leaf-file-name="TestProperties.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1870">
-              <caret line="135" column="51" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Person.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/model/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-170">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="2295">
+              <caret line="153" column="33" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
               <folding>
-                <element signature="e#168#169#0" expanded="true" />
-                <element signature="e#195#196#0" expanded="true" />
-                <element signature="e#234#235#0" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#335#336#0" expanded="true" />
-                <element signature="e#365#366#0" expanded="true" />
-                <element signature="e#410#411#0" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#502#503#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#577#578#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#764#765#0" expanded="true" />
-                <element signature="e#810#811#0" expanded="true" />
+                <marker date="1468502642369" expanded="true" signature="4734:4751" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -111,20 +62,10 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="493">
-              <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="person.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/person.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -132,21 +73,11 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+            <state relative-caret-position="225">
+              <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="email.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/email.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -464,36 +395,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-dependency-injection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-dependency-injection" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="di" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="configuration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -514,13 +415,13 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.journaldev.spring.di.services" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.journaldev.spring.di.services" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\NICOLA\git\javaprojects\spring-dependency-injection\src\main\resources" />
       <recent name="C:\Users\NICOLA\git\javaprojects\spring-dependency-injection\src\test\resources" />
       <recent name="C:\Users\NICOLA\git\javaprojects\spring-dependency-injection" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.journaldev.spring.di.services" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Application">
@@ -1093,7 +994,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="12" column="58" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
-          <folding />
+          <folding>
+            <marker date="1468502642344" expanded="true" signature="679:681" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1326,7 +1229,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1351,41 +1253,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
-          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/person.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/person.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/email.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1870">
-          <caret line="135" column="51" selection-start-line="135" selection-start-column="51" selection-end-line="135" selection-end-column="51" />
-          <folding />
+        <state relative-caret-position="2295">
+          <caret line="153" column="33" selection-start-line="153" selection-start-column="33" selection-end-line="153" selection-end-column="33" />
+          <folding>
+            <marker date="1468502642369" expanded="true" signature="4734:4751" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1393,24 +1288,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-170">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#195#196#0" expanded="true" />
-            <element signature="e#234#235#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#335#336#0" expanded="true" />
-            <element signature="e#365#366#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#502#503#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
-            <element signature="e#577#578#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#764#765#0" expanded="true" />
-            <element signature="e#810#811#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,16 +1305,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="323">
           <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-          <folding />
+          <folding>
+            <marker date="1468502642344" expanded="true" signature="679:681" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
+        <state relative-caret-position="225">
+          <caret line="26" column="51" selection-start-line="26" selection-start-column="51" selection-end-line="26" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
