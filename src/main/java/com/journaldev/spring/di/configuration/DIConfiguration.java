@@ -2,6 +2,7 @@ package com.journaldev.spring.di.configuration;
 
 import com.journaldev.spring.di.services.EmailService;
 import com.journaldev.spring.di.services.MessageService;
+import com.journaldev.spring.di.services.PersonService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -17,5 +18,8 @@ public class DIConfiguration {
         {
             return new EmailService();
         }
+
+    @Bean
+    public PersonService personService() { return new PersonService(); }
 
 }

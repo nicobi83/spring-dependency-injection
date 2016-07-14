@@ -6,7 +6,7 @@ package com.journaldev.spring.di.model;
 public class Person {
 
     String name;
-    public String getName() {
+    public String getName(String property) {
         return name;
     }
     public void setName(String name) {
@@ -14,7 +14,7 @@ public class Person {
     }
 
     String surname;
-    public String getSurname() {
+    public String getSurname(String property) {
         return surname;
     }
     public void setSurname(String surname) {
@@ -35,6 +35,10 @@ public class Person {
     }
     public void setNationality(String nationality) {
         this.nationality = nationality;
+    }
+
+    public Person(){
+
     }
 
 }
