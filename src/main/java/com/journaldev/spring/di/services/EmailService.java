@@ -68,7 +68,6 @@ public class EmailService implements MessageService {
         logger.info("I am sending your message with the information reported below: ");
         logger.info(this.templateMessage.getFrom() + this.templateMessage.getReplyTo()
                 + this.templateMessage.getSubject() + this.templateMessage.getText());
-        message.setText("Hello!");
 
         try {
             this.mailSender.send(message);
