@@ -19,7 +19,7 @@ public class TestProperties {
     OutputStream out = null;
     InputStream in = null;
     InputStream in2 = null;
-    public SimpleMailMessage templateMessage;
+    public SimpleMailMessage templateMessage = new SimpleMailMessage();
 
     @Test
     public void writeProperties() {
@@ -114,20 +114,17 @@ public class TestProperties {
 
 
         try {
-            in = new FileInputStream("email.properties");
+            in = getClass().getClassLoader().getResourceAsStream("email.properties");
             if(in==null){
                 logger.error("File not found");
             }
             prop.load(in);
-            templateMessage = new SimpleMailMessage();
-            templateMessage.setSubject( prop.getProperty("email.subject") );
             templateMessage.setFrom( prop.getProperty("email.from") );
-            templateMessage.setText( prop.getProperty("email.text") );
-            templateMessage.setTo( prop.getProperty("email.to") );
-            logger.info( templateMessage.getFrom());
+            logger.info( templateMessage.getFrom() );
         } catch (IOException e) {
             e.printStackTrace();
         }
+
 
     }
 
