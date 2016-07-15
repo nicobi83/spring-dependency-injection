@@ -64,7 +64,7 @@ public class EmailService implements MessageService {
 
     public boolean sendMessage(String msg, String mailaddress) {
 
-        SimpleMailMessage message = new SimpleMailMessage( this.getTemplateMessage() );
+        SimpleMailMessage message = new SimpleMailMessage(this.getTemplateMessage());
         logger.info("I am sending your message with the information reported below: ");
         logger.info(this.templateMessage.getFrom() + this.templateMessage.getReplyTo()
                 + this.templateMessage.getSubject() + this.templateMessage.getText());
@@ -78,9 +78,4 @@ public class EmailService implements MessageService {
         return true;
     }
 }
-
-
-//"setter" imposta il parametro che passo in ingresso al metodo setter ma non restituisce nulla.
-//"getter" è il metodo che ritorna il valore MA NON NESSUN PARAMETRO IN INGRESSO
-//con "getter & setter" posso usare if che mi serve per settare il parametro qualora non sia impostato.
 

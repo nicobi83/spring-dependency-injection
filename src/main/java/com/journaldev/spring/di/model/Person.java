@@ -6,38 +6,46 @@ package com.journaldev.spring.di.model;
 public class Person {
 
     String name;
+
     public String getName(String property) {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
 
     String surname;
+
     public String getSurname(String property) {
         return surname;
     }
+
     public void setSurname(String surname) {
         this.surname = surname;
     }
 
     String country;
+
     public String getCountry() {
         return country;
     }
+
     public void setCountry(String country) {
         this.country = country;
     }
 
     String nationality;
+
     public String getNationality() {
         return nationality;
     }
+
     public void setNationality(String nationality) {
         this.nationality = nationality;
     }
 
-    public Person(){
+    public Person() {
 
     }
 

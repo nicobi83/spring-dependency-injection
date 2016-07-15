@@ -22,7 +22,7 @@ public class PersonService {
 
         logger.info("This is the person set by app:");
         logger.info("Name: " + person.getName("person.name") + " - Surname: " + person.getSurname("person.surname ")
-                + " - Borth country: " + person.getCountry() + " - Nationality: " + person.getNationality() );
+                + " - Borth country: " + person.getCountry() + " - Nationality: " + person.getNationality());
 
         return person;
     }
