@@ -1,6 +1,6 @@
 package propertiesTest;
 
-import org.junit.Assert;
+import com.journaldev.spring.di.model.Person;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,11 +15,12 @@ import java.util.Properties;
 public class TestProperties {
 
     Logger logger = LoggerFactory.getLogger(TestProperties.class);
-    Properties prop = new Properties( System.getProperties() );
+    Properties prop = new Properties(System.getProperties());
     OutputStream out = null;
     InputStream in = null;
     InputStream in2 = null;
-    public SimpleMailMessage templateMessage;
+    public SimpleMailMessage templateMessage = new SimpleMailMessage();
+    Person person = new Person();
 
     @Test
     public void writeProperties() {
@@ -98,7 +99,7 @@ public class TestProperties {
         } catch (IOException e) {
             e.printStackTrace();
         } finally {
-            if (in != null && in !=null) {
+            if (in != null && in != null) {
                 try {
                     in.close();
                     in2.close();
@@ -114,19 +115,44 @@ public class TestProperties {
 
 
         try {
-            in = new FileInputStream("email.properties");
-            if(in==null){
+            in = getClass().getClassLoader().getResourceAsStream("email.properties");
+            if (in == null) {
                 logger.error("File not found");
             }
             prop.load(in);
-            templateMessage = new SimpleMailMessage();
-            templateMessage.setSubject( prop.getProperty("email.subject") );
-            templateMessage.setFrom( prop.getProperty("email.from") );
-            templateMessage.setText( prop.getProperty("email.text") );
-            templateMessage.setTo( prop.getProperty("email.to") );
-            logger.info( templateMessage.getFrom());
+            templateMessage.setFrom(prop.getProperty("email.from"));
+            logger.info(templateMessage.getFrom());
         } catch (IOException e) {
             e.printStackTrace();
+        }
+
+
+    }
+
+    @Test
+    public void setPerson() {
+
+
+        in = getClass().getResourceAsStream("/person.properties");
+        try {
+            prop.load(in);
+            person.setName(prop.getProperty("person.name"));
+            person.setSurname(prop.getProperty("person.surname"));
+            person.setCountry(prop.getProperty("person.country"));
+            person.setNationality(prop.getProperty("person.nationality"));
+
+        } catch (IOException e) {
+            logger.error("ERROR!! File not found", e.getCause().toString());
+            e.printStackTrace();
+        } finally {
+            try {
+                in.close();
+                logger.info("Person initialization completed successfully!!");
+                logger.info(person.toString());
+            } catch (IOException e) {
+                logger.error("Error in initialization", e.getCause().toString());
+                e.printStackTrace();
+            }
         }
 
     }
