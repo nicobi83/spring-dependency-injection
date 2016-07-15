@@ -39,6 +39,10 @@ public class PersonService {
             person.setSurname(prop.getProperty("person.surname"));
             person.setCountry(prop.getProperty("person.country"));
             person.setNationality(prop.getProperty("person.nationality"));
+            if (person.getName("person.name") == null || person.getSurname("person.surname") == null
+                    || person.getCountry() == null || person.getNationality() == null) {
+                logger.warn("PARAMETER 'person' NOT CORRECTLY INITIALIZED");
+            }
 
         } catch (IOException e) {
             logger.error("ERROR!! File not found", e.getCause().toString());

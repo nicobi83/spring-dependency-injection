@@ -24,6 +24,7 @@ public class Application {
         PersonService personService = context.getBean(PersonService.class);
         personService.setPerson(person);
         personService.getPerson();
+        System.exit(0);
 
 
     }

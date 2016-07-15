@@ -3,12 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="ab4eec8a-053a-4f8d-be3a-020753dede0a" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/Application.class" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/Application.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/configuration/DIConfiguration.class" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/configuration/DIConfiguration.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/model/Person.class" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/model/Person.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/services/PersonService.class" afterPath="$PROJECT_DIR$/target/classes/com/journaldev/spring/di/services/PersonService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/model/Person.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/model/Person.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/MessageService.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/MessageService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java" afterPath="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java" />
     </list>
     <ignored path="spring-dependency-injection.iws" />
@@ -30,12 +29,12 @@
     <favorites_list name="spring-dependency-injection" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Application.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="442">
+              <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,10 +47,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="221">
               <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding>
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#615#616#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -59,8 +55,18 @@
       <file leaf-file-name="PersonService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
+            <state relative-caret-position="177">
+              <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="person.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/person.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -71,7 +77,24 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="e#169#170#0" expanded="false" />
+                <element signature="e#196#197#0" expanded="false" />
+                <element signature="e#236#237#0" expanded="false" />
+                <element signature="e#268#269#0" expanded="false" />
+                <element signature="e#338#339#0" expanded="false" />
+                <element signature="e#368#369#0" expanded="false" />
+                <element signature="e#414#415#0" expanded="false" />
+                <element signature="e#452#453#0" expanded="false" />
+                <element signature="e#507#508#0" expanded="false" />
+                <element signature="e#537#538#0" expanded="false" />
+                <element signature="e#583#584#0" expanded="false" />
+                <element signature="e#621#622#0" expanded="false" />
+                <element signature="e#684#685#0" expanded="false" />
+                <element signature="e#718#719#0" expanded="false" />
+                <element signature="e#772#773#0" expanded="false" />
+                <element signature="e#818#819#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmailService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="EmailService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
+            <state relative-caret-position="1163">
               <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
               <folding />
             </state>
@@ -133,14 +156,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/email.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/ClientApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/Test.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/person.properties" />
         <option value="$PROJECT_DIR$/src/test/java/propertiesTest/TestProperties.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/configuration/DIConfiguration.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/model/Person.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/MessageService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/person.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java" />
       </list>
     </option>
   </component>
@@ -215,6 +238,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -443,9 +468,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1269,13 +1292,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/person.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/resources/person.properties" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/email.properties">
       <provider selected="true" editor-type-id="text-editor">
@@ -1292,13 +1308,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/model/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="16" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#169#170#0" expanded="false" />
+            <element signature="e#196#197#0" expanded="false" />
+            <element signature="e#236#237#0" expanded="false" />
+            <element signature="e#268#269#0" expanded="false" />
+            <element signature="e#338#339#0" expanded="false" />
+            <element signature="e#368#369#0" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#452#453#0" expanded="false" />
+            <element signature="e#507#508#0" expanded="false" />
+            <element signature="e#537#538#0" expanded="false" />
+            <element signature="e#583#584#0" expanded="false" />
+            <element signature="e#621#622#0" expanded="false" />
+            <element signature="e#684#685#0" expanded="false" />
+            <element signature="e#718#719#0" expanded="false" />
+            <element signature="e#772#773#0" expanded="false" />
+            <element signature="e#818#819#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1163">
+          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1306,25 +1345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding>
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#615#616#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="24" column="66" selection-start-line="24" selection-start-column="66" selection-end-line="24" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/model/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -1337,11 +1357,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/EmailService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/services/PersonService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="80" column="0" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+        <state relative-caret-position="177">
+          <caret line="41" column="15" selection-start-line="41" selection-start-column="15" selection-end-line="41" selection-end-column="15" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/person.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/journaldev/spring/di/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="21" selection-start-line="26" selection-start-column="21" selection-end-line="26" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
