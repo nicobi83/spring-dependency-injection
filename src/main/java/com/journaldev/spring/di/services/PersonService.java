@@ -19,6 +19,11 @@ public class PersonService {
     InputStream in;
 
     public Person getPerson() {
+
+        logger.info("This is the person set by app:");
+        logger.info("Name: " + person.getName("person.name") + " - Surname: " + person.getSurname("person.surname ")
+                + " - Borth country: " + person.getCountry() + " - Nationality: " + person.getNationality() );
+
         return person;
     }
 
@@ -29,6 +34,7 @@ public class PersonService {
         in = getClass().getResourceAsStream("/person.properties");
         try {
             prop.load(in);
+            logger.info("Application is setting person!! WAIT....");
             person.setName(prop.getProperty("person.name"));
             person.setSurname(prop.getProperty("person.surname"));
             person.setCountry(prop.getProperty("person.country"));
