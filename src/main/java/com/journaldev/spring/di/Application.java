@@ -8,11 +8,6 @@ import org.slf4j.LoggerFactory;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import javax.inject.Inject;
-import java.io.IOException;
-import java.io.InputStream;
-import java.util.Properties;
-
 /**
  * Created by NICOLA on 27/06/2016.
  */
@@ -22,21 +17,15 @@ public class Application {
 
     public static void main(String[] args) {
         Logger logger = LoggerFactory.getLogger(Application.class);
-        Properties properties = new Properties(System.getProperties());
         Person person = new Person();
+        logger.debug("I'M VERIFYING APPLICATION BEAN SERVICE....");
         ApplicationContext context = new AnnotationConfigApplicationContext(DIConfiguration.class);
+        logger.info("ALL OK, APPLICATION IS STARTED!!");
         PersonService personService = context.getBean(PersonService.class);
         personService.setPerson(person);
         personService.getPerson();
+        System.exit(0);
 
-        /*try {
-            InputStream emailPropertiesStream = Application.class.getResourceAsStream("/email.properties");
-            properties.load(emailPropertiesStream);
-
-        } catch (IOException e) {
-            logger.error("exception launched");
-            e.printStackTrace();
-        }*/
 
     }
 }
