@@ -1,6 +1,7 @@
 package propertiesTest;
 
 import com.journaldev.spring.di.model.Person;
+import junit.framework.Assert;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.Test;
 import org.slf4j.Logger;
@@ -164,6 +165,18 @@ public class TestProperties {
     public void ownerTestReadProp(){
 
         logger.info("Server: " + config.hostname() + "\n" + "port: " + config.port() + "\n" + "maxThreads: " + config.maxThreads());
+
+    }
+
+    @Test
+    public void importPropFromClass(){
+
+        Properties prop = new Properties();
+        prop.setProperty("port","80");
+        prop.setProperty("hostname","com.zaxxer");
+
+        ImportConfig cfg = ConfigFactory.create(ImportConfig.class, prop);
+        logger.info("Port is set to " + cfg.port());
 
     }
 
