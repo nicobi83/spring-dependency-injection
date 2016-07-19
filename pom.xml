@@ -79,8 +79,8 @@
       </dependency>
       <dependency>
           <groupId>org.aeonbits.owner</groupId>
-          <artifactId>owner</artifactId>
-          <version>1.0.8</version>
+          <artifactId>owner-java8</artifactId>
+          <version>1.0.6</version>
       </dependency>
 
 
