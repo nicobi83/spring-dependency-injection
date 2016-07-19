@@ -1,6 +1,7 @@
 package propertiesTest;
 
 import com.journaldev.spring.di.model.Person;
+import org.aeonbits.owner.ConfigFactory;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -21,6 +22,8 @@ public class TestProperties {
     InputStream in2 = null;
     public SimpleMailMessage templateMessage = new SimpleMailMessage();
     Person person = new Person();
+    ServerConfig config = ConfigFactory.create(ServerConfig.class);
+
 
     @Test
     public void writeProperties() {
@@ -154,6 +157,13 @@ public class TestProperties {
                 e.printStackTrace();
             }
         }
+
+    }
+
+    @Test
+    public void ownerTestReadProp(){
+
+        logger.info("Server: " + config.hostname() + "\n" + "port: " + config.port() + "\n" + "maxThreads: " + config.maxThreads());
 
     }
 
