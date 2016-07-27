@@ -187,7 +187,7 @@ public class TestProperties {
 
     }
 
-
+    @Test
     public void readXmlFile() {
 
         try {
