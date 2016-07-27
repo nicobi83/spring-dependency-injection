@@ -1,13 +1,20 @@
 package propertiesTest;
 
 import com.journaldev.spring.di.model.Person;
-import junit.framework.Assert;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.mail.SimpleMailMessage;
+import org.w3c.dom.Document;
+import org.w3c.dom.Element;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXException;
 
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 import java.io.*;
 import java.util.Properties;
 
@@ -162,21 +169,66 @@ public class TestProperties {
     }
 
     @Test
-    public void ownerTestReadProp(){
+    public void ownerTestReadProp() {
 
         logger.info("Server: " + config.hostname() + "\n" + "port: " + config.port() + "\n" + "maxThreads: " + config.maxThreads());
 
     }
 
     @Test
-    public void importPropFromClass(){
+    public void importPropFromClass() {
 
         Properties prop = new Properties();
-        prop.setProperty("port","80");
-        prop.setProperty("hostname","com.zaxxer");
+        prop.setProperty("port", "80");
+        prop.setProperty("hostname", "com.zaxxer");
 
         ImportConfig cfg = ConfigFactory.create(ImportConfig.class, prop);
         logger.info("Port is set to " + cfg.port());
+
+    }
+
+
+    public void readXmlFile() {
+
+        try {
+
+            logger.info("Opening file prova.xml");
+            File fXMLFile = new File("provaxml.xml");
+            logger.info("FILE OPEN");
+            DocumentBuilder dBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+            Document doc = dBuilder.parse(fXMLFile);
+            doc.getDocumentElement().normalize();
+
+            NodeList nList = doc.getElementsByTagName("gnc:transaction");
+            logger.info("--------------------");
+
+            for (int i = 0; i < nList.getLength(); i++) {
+
+                Node node = nList.item(i);
+                Element element = (Element) node;
+                logger.info(element.getFirstChild().toString());
+                logger.info("current element: " + node.getNodeName());
+
+                if (node.getNodeType() == Node.ELEMENT_NODE) {
+
+                    logger.info("\n");
+                    logger.info("Attribute name: " + element.getElementsByTagName("split:id").item(0).getTextContent());
+                    logger.info("Attribute id: " + element.getElementsByTagName("split:value").item(0).getTextContent());
+                    logger.info("Attribute type: " + element.getElementsByTagName("split:quantity").item(0).getTextContent());
+
+                }
+
+            }
+        } catch (ParserConfigurationException e) {
+            logger.error("ERROR: NO FILES TO PARSE");
+            e.printStackTrace();
+        } catch (SAXException e) {
+            logger.error("ERROR: NO DOCUMENT TO BUILD");
+            e.printStackTrace();
+        } catch (IOException e) {
+            logger.error("ERROR: READING XML FILE IS FAILED. READ STACKTRACE FOR MORE INFORMATIONS");
+            e.printStackTrace();
+        }
 
     }
 
